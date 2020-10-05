@@ -1,0 +1,45 @@
+enable  : true
+title   : "小庄园的成果墙"
+subtitle: "听听客户们的评价吧！期待更多的学弟学妹们迎来属于自己的offer雨~"
+testimonial_item :
+  - thumb : "images/testimonial/u3.jpg"
+    name  : "Aries Wu"
+    company_position: "Mphil in Chemistry, University of Cambridge"
+    quote : >
+            "当我经历过一硕申请，博士申请和二硕申请后，留学申请对我来说真的是轻车熟路的一件事。
+            能帮助到学弟学妹们也是满满的成就感~"
+
+  - thumb : "images/testimonial/u1.jpg"
+    name  : "Wanting Wang"
+    company_position: "MSc IPP, UCL"
+    quote : >
+            "我自己签的中介在个人陈述上我不太满意，语句不通顺，好像就是翻译了我给的信息，也没什么层次。
+            只能找专业的文书修改去补救一下。还好及时找到了姐，她改后我放心了许多。最后去了UCL。今年准备继续申请二硕或博士项目，也要麻烦姐姐噜~"
+
+  - thumb : "images/testimonial/u4.jpg"
+    name  : "Sherry Sheng"
+    company_position: "MSc in HPC, University of Edinburgh"
+    quote : >
+            "我是半DIY的，自己弄了专业申请的部分。对个人陈述什么的自己不是很有把握，于是找到学姐帮忙修改的，
+            改后确实内容丰富流畅了许多，表达了我的想法，最后如愿录取了理想专业和院校。"
+
+  - thumb : "images/testimonial/u5.jpg"
+    name  : "Fanfan Liu"
+    company_position: "MSc Statistics, LSE"
+    quote : >
+            "我是澳本的，三年级结束的时候，抱着试一试的态度冲一下LSE。
+            给学姐看文书的时候发现我在结构和逻辑上都有很大的改动空间，沟通中
+            觉得她很尊重我的想法也会和我一起讨论。申请到的时候太开心了，后来也把学姐推荐给了我的朋友！"
+
+  - thumb : "images/testimonial/u6.jpg"
+    name  : "Jessy Yu"
+    company_position: "MA Education, UCL"
+    quote : >
+            "学姐帮我写文书去申请的三个专业都来offer了，UCL是我最后想补申的，本以为不会有结果了，真的很感谢她！"
+
+  - thumb : "images/testimonial/u2.jpg"
+    name  : "Tiffany Bai"
+    company_position: "MPA, University of Birmingham"
+    quote : >
+            "找到学姐的时候已经是申请末期了，之前签的中介几乎全“拒”德。无奈找到了学姐，改了文书，她很支持我补申，
+            结果之前被拒过一次的伯明翰，竟然录取了MPA，真的开心！"

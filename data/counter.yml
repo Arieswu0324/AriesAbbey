@@ -1,0 +1,14 @@
+enable : true
+heading : "小庄园的留学申请记录"
+counter_item:
+  - title: "申请专业"
+    number: "32"
+
+  - title: "服务学员"
+    number: "27"
+
+  - title: "累计咨询"
+    number: "58"
+
+  - title: "完成文书"
+    number: "70"

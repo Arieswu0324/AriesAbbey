@@ -1,0 +1,122 @@
+baseURL       = "http://example.org/"
+languageCode  = "en-us"
+title         = "Aries | 精品留学服务"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "主页"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "庄园简介" #公众号中的园主简介和庄园规划
+    #url     = "about"
+    url     = "intro"
+    weight  = 2
+  [[menu.nav]]
+    name    = "服务费用" #公众号中的报价单
+    #url     = "portfolio"
+    url     = "about"
+    weight  = 3
+  [[menu.nav]]
+    name    = "留学天地" #留学相关的文章精选
+    url     = "blog"
+    #url     = "portfolio"
+    weight  = 4
+  [[menu.nav]]
+    name    = "联系我们" #园主的联系方式
+    url     = "social"
+    weight  = 5
+
+# Site Params
+[params]
+  logo = "images/logo.png" #设计中
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "StaticMania"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/myykjpje"
+
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "Aries的留学小庄园"
+    tagline               = "专注文书，精品留学"
+    primary_button        = "留学服务"
+    primary_button_url    = "about"
+    secondary_button      = "关注我们"
+    secondary_button_url  = "social"
+
+  [params.portfolio]
+  #[params.about]
+    enable    = false
+    title     = "最新留学资讯"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "为了OFFER冲鸭冲鸭"
+    primary_button      = "滴滴学姐"
+    primary_button_url  = "social"
+    secondary_button    = "看看资讯"
+    #secondary_button_url = "portfolio"
+    secondary_button_url = "blog"
+
+  [params.footer]
+    # Footer Contact Info
+    [params.footer.contactInfo]
+      title   = "联系我们"
+      address = "线上社交平台私信"
+      #phone   = "商务微信 ----"
+      email   = "邮箱 arieswu0324@gmail.com"
+
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "内容导航"
+        [[params.footer.sitemap.link]]
+          name = "庄园简介"
+          url  = "intro"
+        [[params.footer.sitemap.link]]
+          name = "服务费用"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "留学天地"
+          url  = "blog"
+        [[params.footer.sitemap.link]]
+          name = "联系我们"
+          url  = "social"
+
+      # Footer Social Media
+      [params.footer.social]
+        title   = "社交平台"
+        [[params.footer.social.link]]
+          name = "微博 @Aries的小庄园分园"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "公众号【Aries的留学小庄园】"
+          url  = "#"
+        #[[params.footer.social.link]]
+        #  name = "知乎 -丢在火车上的充电宝-"
+        #  url  = "#"
+        #[[params.footer.social.link]]
+        #  name = "抖音"
+        #  url  = "#"
+      # Footer Service
+      [params.footer.service]
+        title       = "我们的宗旨:"
+        description = "提供个性化留学服务<br>成为你贴心的留学管家"
