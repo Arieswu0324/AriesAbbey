@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/Arieswu0324/Arieswu0324.github.io.git
 	branch = master
+[submodule "theme/roxo"]
+	path = theme/roxo
+	url = https://github.com/Arieswu0324/AriesAbbeyRepo.git
